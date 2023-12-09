@@ -19,10 +19,10 @@ food = Food()
 scoreboard = ScoreBoard()
 
 screen.listen()
-screen.onkey(snake.up, 'Up')
-screen.onkey(snake.down, 'Down')
-screen.onkey(snake.left, 'Left')
-screen.onkey(snake.right, 'Right')
+screen.onkey(snake.up, 'k')
+screen.onkey(snake.down, 'j')
+screen.onkey(snake.left, 'h')
+screen.onkey(snake.right, 'l')
 
 game_on = True
 while game_on:
